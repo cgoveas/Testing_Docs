@@ -5,6 +5,10 @@ Ansible playbook-based deployment of Slurm and Kubernetes on servers running an 
 
 Omnia (Latin: all or everything) is a deployment tool to turn servers with RPM-based Linux images into functioning Slurm/Kubernetes clusters.
 
+Omnia Documentation
+++++++++++++++++++++
+.. jsonschema:: NewODataAPIDocumentForOME.json
+
 Pre Requisites before installing Omnia
 ++++++++++++++++++++++++++++++++++++++
 - `Python3 <https://www.python.org/>`_
@@ -33,9 +37,6 @@ Troubleshooting Omnia
 * For a list of commonly encountered issues, check out our `FAQs <docs/Troubleshooting/FAQ.md>`_.
 * To troubleshoot Omnia, use our `Troubleshooting Guide <docs/Troubleshooting/Troubleshooting_Guide.md>`_.
 
-Omnia Documentation
-++++++++++++++++++++
-.. toctree::
 
 Omnia Community Members
 ++++++++++++++++++++++++

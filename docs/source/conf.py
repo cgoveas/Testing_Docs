@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Omnia'
+copyright = '2021, DellHPC'
+
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +17,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser'
+    'sphinx.ext.autodoc',
+    'sphinx-jsonschema'
 ]
 
 intersphinx_mapping = {
