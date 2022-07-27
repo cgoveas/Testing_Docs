@@ -50,7 +50,7 @@ Omnia Community Members
 .. image:: https://www.shorttermprograms.com/images/cache/600_by_314/uploads/institution-logos/university-of-pisa.png
   :width: 100pt
 
-.. image:: https://www.asu.edu/modules/composer/webspark-module-asu_brand/node_modules/@asu-design-system/component-header/dist/assets/img/arizona-state-university-logo-vertical.png
+.. image:: https://i.pinimg.com/originals/65/e3/37/65e33744f64c4d1f8f082785761b205a.png
   :width: 100pt
 
 .. image:: https://www.vizias.com/uploads/1/1/8/9/118906653/published/thick-blue-white-ring-letters-full.png
