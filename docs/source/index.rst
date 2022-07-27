@@ -36,7 +36,6 @@ Troubleshooting Omnia
 Omnia Documentation
 ++++++++++++++++++++
 .. toctree::
-   :maxdepth: 4
 
 Omnia Community Members
 ++++++++++++++++++++++++
