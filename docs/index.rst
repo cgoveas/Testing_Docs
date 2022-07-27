@@ -47,7 +47,7 @@ Omnia Community Members
 .. image:: https://i.pcmag.com/imagery/articles/05PmkAe4XLJQ94pQo36E1uc-1..v1599074802.jpg
     :width: 100pt
 
-.. image:: images/pisa.png
+.. image:: https://upload.wikimedia.org/wikipedia/en/thumb/0/06/University_of_Pisa.svg/1200px-University_of_Pisa.svg.png
   :width: 100pt
 
 .. image:: https://www.asu.edu/modules/composer/webspark-module-asu_brand/node_modules/@asu-design-system/component-header/dist/assets/img/arizona-state-university-logo-vertical.png
