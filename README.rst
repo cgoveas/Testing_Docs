@@ -35,7 +35,8 @@ Troubleshooting Omnia
 
 Omnia Documentation
 ++++++++++++++++++++
-For Omnia documentation, please see the `website <https://dellhpc.github.io/omnia>`_ .
+.. toctree::
+   :maxdepth: 4
 
 Omnia Community Members
 ++++++++++++++++++++++++
