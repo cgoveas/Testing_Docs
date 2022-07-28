@@ -3,10 +3,10 @@
 # -- Project information
 
 project = 'Omnia'
-copyright = '2021, DellHPC'
+copyright = '2022, DellHPC'
 
 
-release = '0.1'
+release = '1.4'
 version = '0.1.0'
 
 # -- General configuration
