@@ -30,8 +30,8 @@ Using Omnia
 
 Troubleshooting Omnia
 +++++++++++++++++++++
-* For a list of commonly encountered issues, check out our `FAQs <docs/source/Troubleshooting/FAQ.md>`_.
-* To troubleshoot Omnia, use our `Troubleshooting Guide <docs/Troubleshooting/source/Troubleshooting_Guide.md>`_.
+* For a list of commonly encountered issues, check out our `FAQs <docs/source/Troubleshooting/FAQ.rst>`_.
+* To troubleshoot Omnia, use our `Troubleshooting Guide <docs/Troubleshooting/source/Troubleshooting_Guide.rst>`_.
 
 
 Omnia Community Members

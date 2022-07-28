@@ -1,6 +1,8 @@
-# Frequently Asked Questions
+Frequently Asked Questions
+==========================
 
-## What to do when hosts do not show on the AWX UI?  
+What to do when hosts do not show on the AWX UI?
+--------------------------------------------------
   **Resolution**: 
 * Verify if the provisioned_hosts.yml file is present in the omnia/control_plane/roles/collect_node_info/files/ folder.
 * Verify whether the hosts are listed in the provisioned_hosts.yml file.
@@ -8,16 +10,19 @@
 If hosts are listed, then an IP address has been assigned to them by DHCP. However, hosts are not displayed on the AWX UI as the PXE boot is still in process or is not initiated.
 * Check for the reachable and unreachable hosts using the provision_report.yml tool present in the omnia/control_plane/tools folder. To run provision_report.yml, in the omnia/control_plane/ directory, run playbook -i roles/collect_node_info/files/provisioned_hosts.yml tools/provision_report.yml.
 
-## How do I find the version of Omnia being used?
+How do I find the version of Omnia being used?
+-------------------------------------------------
 If `control_plane.yml` has run, a version file is created here: `/opt/omnia/omnia_version`.
 
-## What are the mapping files required when configuring in a LOM setup?
+What are the mapping files required when configuring in a LOM setup?
+---------------------------------------------------------------------
 | File name               | Purpose                                                                                               | Associated Variable  (base_vars.yml)   | Format                           | Sample File Path                                     |
 |-------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------|----------------------------------|------------------------------------------------------|
 | Host mapping            | __Mapping file listing all devices (barring iDRAC) and provisioned hosts for DHCP configurations__    | `host_mapping_file_path`               | xx:yy:zz:aa:bb,server,172.17.0.5 | omnia/examples/host_mapping_file_os_provisioning.csv |
 | Management mapping file | __Mapping file listing iDRACs for DHCP configurations__                                               | `mgmt_mapping_file_path`               | xx:yy:zz:aa:bb,172.17.0.5        | omnia/examples/mapping_device_file.csv               |
 
-## Why does the task 'nfs_client: Mount NFS client' fail with `No route to host`?
+Why does the task 'nfs_client: Mount NFS client' fail with `No route to host`?
+-------------------------------------------------------------------------------
 **Potential Cause**:
 * There's a mismatch in the share path listed in `/etc/exports` and in `omnia_config.yml` under `nfs_client_params`. <br>
 **Resolution**:
